@@ -2,7 +2,7 @@
 
 by Tim Schröder (see my [website](http://www.timschroeder.net), or my [blog](http://blog.timschroeder.net/), or follow me on [Twitter](http://www.twitter.com/timschroedernet)).
 
-LIPR is an unofficial Objective-C framework for programmatically addressing Berg's [Little Printer](http://bergcloud.com/littleprinter/) [Direct Print API](http://remote.bergcloud.com/developers/littleprinter/direct_print_codes). LIPR has been developed for using it with OS X 10.9 Mavericks, but most classes should also work on iOS and with earlier versions of OS X, though I haven't tested this. 
+LIPR is an unofficial Objective-C framework for programmatically addressing BERG'S [Little Printer](http://bergcloud.com/littleprinter/) [Direct Print API](http://remote.bergcloud.com/developers/littleprinter/direct_print_codes). LIPR has been developed for using it with OS X 10.9 Mavericks, but most classes should also work on iOS and with earlier versions of OS X, though I haven't tested this. 
 
 ##State of Development
 
@@ -14,7 +14,7 @@ Just include the framework in your Xcode project and create an instance of the L
 
 	LIPrinter *printer = [[LIPrinter alloc] initWithPrinterAccessCode:@"XXXXXXXXXXXX"];
 	
-With "XXXXXXXXXXXX" being your printer's access code, as to be retrieved from [Berg's developer website](http://remote.bergcloud.com/developers/littleprinter/direct_print_codes). 
+With "XXXXXXXXXXXX" being your printer's access code, as to be retrieved from [BERG'S developer website](http://remote.bergcloud.com/developers/littleprinter/direct_print_codes). 
 
 You can then address your Little Printer by using one of the following public methods of the LIPrinter instance visible via the header file, for example:
 
@@ -37,11 +37,11 @@ These classes should be easy enough to use, the all will return a unique message
 
 ##Known Issues and Caveats
 
-* Berg seems to have a size limit for any content sent to a Little Printer via the Direct Print API in the region of 200 KBytes; this is at the moment not monitored by the LIPR framework as the API doesn't return an error code in this case. If the content is too large, the Little Printer will print only a short empty sheet of paper.
+* BERG seems to have a size limit for any content sent to a Little Printer via the Direct Print API in the region of 200 KBytes; this is at the moment not monitored by the LIPR framework as the API doesn't return an error code in this case. If the content is too large, the Little Printer will print only a short empty sheet of paper.
 * Little Printers only accept specific HTML formattings, so you will have to experiment what is allowed and what is not.
 * Image rendering (dithering) is already implemented in the LIPR framework but could possibly be improved.
 * Image loading, if necessary for rendering, is done via a synchronous loading at the moment, which works quite well, but should
-* Berg stresses that their Direct Print API is a temporary API and will be replaced by a permanent solution. It is very likely that the LIPR framework will be affected by such a change. 
+* BERG stresses that their Direct Print API is a temporary API and will be replaced by a permanent solution. It is very likely that the LIPR framework will be affected by such a change. 
 
 ##License
 
