@@ -14,7 +14,6 @@
 
 NSString *const BergCloudURL = @"http://remote.bergcloud.com/playground/direct_print/"; // As found on http://remote.bergcloud.com/developers/littleprinter/direct_print_codes
 NSMutableData *webData;
-float downloadSize;
 
 
 #pragma mark -
