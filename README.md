@@ -1,4 +1,4 @@
-#LIPR
+# LIPR
 
 by Tim Schröder (see my [website](http://www.timschroeder.net), or my [blog](http://blog.timschroeder.net/), or follow me on [Twitter](http://www.twitter.com/timschroedernet)).
 
@@ -6,11 +6,11 @@ LIPR is an unofficial Objective-C framework for programmatically addressing BERG
 
 It shall be pointed out that the LIPR framework is an unofficial framework   which I have developed in my personal capacity and which is neither connected to nor necessarily endorsed by BERG in any way.
 
-##State of Development
+## State of Development
 
 At the moment, LIPR is in a beta state, with the public methods already working but the source code of the framework and the [documentation](https://github.com/timschroedernet/LIPR/blob/master/DOCUMENTATION.md) being in need of some polishing. 
 
-##Usage
+## Usage
 
 Just include the framework in your Xcode project and create an instance of the LIPrinter class with the following line of code:
 
@@ -41,7 +41,7 @@ For more complex use cases, especially the printHTML: method, I'll publish a sam
 
 For a more detailed description of the LIPR framework, please see the [documentation](https://github.com/timschroedernet/LIPR/blob/master/DOCUMENTATION.md). 
 
-##Known Issues and Caveats
+## Known Issues and Caveats
 
 * BERG seems to have a size limit for any content sent to a Little Printer via the Direct Print API in the region of 200 KBytes; this is at the moment not monitored by the LIPR framework as the API doesn't return an error code in this case. If the content is too large, the Little Printer will print only a short empty sheet of paper.
 * Little Printers only accept specific HTML formattings, so you will have to experiment what is allowed and what is not.
@@ -49,10 +49,10 @@ For a more detailed description of the LIPR framework, please see the [documenta
 * Image loading, if necessary for rendering, is done via a synchronous loading at the moment, which works quite well, but should be replaced with asynchronous loading for better performance.
 * BERG stresses that their Direct Print API is a temporary API and will be replaced by a permanent solution. It is very likely that the LIPR framework will be affected by such a change. 
 
-##License
+## License
 
 The (MIT-style) license for this source code is contained in the [license.md](https://github.com/timschroedernet/LIPR/blob/master/LICENSE.md) file. In a nutshell, as long as you give appropriate attribution, you're free to use the source code for any purpose.
 
-##Support
+## Support
 
 For feature requests and bug reports, please use GitHub’s issue tracker. I’ll see what I can do. 
