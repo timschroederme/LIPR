@@ -46,7 +46,3 @@ For a more detailed description of the LIPR framework, please see the [documenta
 ## License
 
 The (MIT-style) license for this source code is contained in the [license.md](LICENSE.md) file. In a nutshell, as long as you give appropriate attribution, you're free to use the source code for any purpose.
-
-## Support
-
-For feature requests and bug reports, please use GitHub’s issue tracker. I’ll see what I can do. 

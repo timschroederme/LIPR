@@ -34,37 +34,25 @@ If you instead call the -init: method of the LIPrinter class, the object instanc
 
 ### printTextMessage:
 
-[to be added]
-
 	- (NSString*)printTextMessage:(NSString*)text;
 
 ### printImageMessage:
-
-[to be added]
 
 	- (NSString*)printImageMessage:(NSImage*)image;
 
 ### printMessageWithHeading:andText:
 
-[to be added]
-
 	- (NSString*)printMessageWithHeading:(NSString*)heading andText:(NSString*)text;
 
 ### printHTML:
-
-[to be added]
 
 	- (NSString*)printHTML:(NSString*)html
 
 ### printerAccessCode
 
-[to be added]
-
 	@property NSString* printerAccessCode;
 
 ### delegate
-
-[to be added]
 
 	@property id delegate;
 
