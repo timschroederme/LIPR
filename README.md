@@ -1,10 +1,6 @@
 # LIPR
 
-by Tim Schröder (see my [website](http://www.timschroeder.net), or my [blog](http://blog.timschroeder.net/), or follow me on [Twitter](http://www.twitter.com/timschroedernet)).
-
-LIPR is an unofficial Objective-C framework for programmatically addressing BERG'S [Little Printer](http://bergcloud.com/littleprinter/) [Direct Print API](http://remote.bergcloud.com/developers/littleprinter/direct_print_codes). LIPR has been developed for using it with OS X 10.9 Mavericks, but most classes should also work on iOS and with earlier versions of OS X, though I haven't tested this. 
-
-It shall be pointed out that the LIPR framework is an unofficial framework   which I have developed in my personal capacity and which is neither connected to nor necessarily endorsed by BERG in any way.
+LIPR is an unofficial Objective-C framework for programmatically addressing BERG's [Little Printer](http://bergcloud.com/littleprinter/) [Direct Print API](http://remote.bergcloud.com/developers/littleprinter/direct_print_codes). LIPR has been developed for using it with OS X 10.9 Mavericks, but most classes should also work on iOS and with earlier versions of OS X, though I haven't tested this. BERG's Little Printer [ceased trading in 2014](http://littleprinterblog.tumblr.com/post/97047976103/the-future-of-little-printer), but this code could still be of some use. 
 
 ## State of Development
 
