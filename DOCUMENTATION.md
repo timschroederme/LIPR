@@ -8,13 +8,13 @@ LIPR has been developed for using it with OS X 10.9 Mavericks, but most classes 
 
 ## Conceptual
 
-The LIPR framework declares one public class, [LIPrinter](#LIPrinter). This class allows for communication with BERG cloud, which is BERG'S web-based solution for in turn addressing Little Printers. 
+The LIPR framework declares one public class, [LIPrinter]. This class allows for communication with BERG cloud, which is BERG'S web-based solution for in turn addressing Little Printers. 
 
 The LIPR framework employs the concept of *messages*, with a message being anything you would like to be printed by a Little Printer. You don't have to explicitly create a message, instead this will be done by the LIPR framework when you pass on what you want to print to it via one of LIPrinter's public methods. 
 
 Internally, the LIPR framework will then create an instance of the *LIPrinterMessage* class. Once the LIPR framework has received your message and is about to deliver it via an instance of the (framework internal) *LIPrinterConnection* class, what shall always happen at once, this message becomes a *print job*. 
 
-While the LIPR framework is still under some development, it already declares, via the [LIPrinter](#LIPrinter) class, a number of public methods as well as two public properties, which are documented below. In addition, it exposes a public protocol called [LIPrinter Protocol](#LIPrinterProtocol).
+While the LIPR framework is still under some development, it already declares, via the [LIPrinter] class, a number of public methods as well as two public properties, which are documented below. In addition, it exposes a public protocol called [LIPrinter Protocol].
 
 ## LIPrinter Class
 
@@ -30,7 +30,7 @@ Invoke it with the Direct Print API access code that may be retrieved from BERG'
 
 	LIPrinter* printer = [[LIPrinter alloc] initWithPrinterAccessCode:@"XXXXXXXXXXXX"];
 	
-If you instead call the -init: method of the LIPrinter class, the object instance will be initiated with the [printerAccessCode property](#printerAccessCode) set to *nil*. You can then later set the property manually.
+If you instead call the -init: method of the LIPrinter class, the object instance will be initiated with the [printerAccessCode property] set to *nil*. You can then later set the property manually.
 
 ### printTextMessage:
 
