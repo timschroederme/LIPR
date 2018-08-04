@@ -1,10 +1,8 @@
 # LIPR
 
-LIPR is an unofficial Objective-C framework for programmatically addressing BERG's [Little Printer](http://bergcloud.com/littleprinter/) [Direct Print API](http://remote.bergcloud.com/developers/littleprinter/direct_print_codes). LIPR has been developed for using it with OS X 10.9 Mavericks, but most classes should also work on iOS and with earlier versions of OS X, though I haven't tested this. BERG's Little Printer [ceased trading in 2014](http://littleprinterblog.tumblr.com/post/97047976103/the-future-of-little-printer), but this code could still be of some use. 
+LIPR is an unofficial Objective-C framework for programmatically addressing BERG's [Little Printer](http://bergcloud.com/littleprinter/) [Direct Print API](http://remote.bergcloud.com/developers/littleprinter/direct_print_codes). LIPR has been developed for using it with OS X 10.9 Mavericks, but most classes should also work on iOS and with earlier versions of OS X, though I haven't tested this. 
 
-## State of Development
-
-At the moment, LIPR is in a beta state, with the public methods already working but the source code of the framework and the [documentation](https://github.com/timschroedernet/LIPR/blob/master/DOCUMENTATION.md) being in need of some polishing. 
+BERG's Little Printer [ceased trading in 2014](http://littleprinterblog.tumblr.com/post/97047976103/the-future-of-little-printer), but this code could still be of some use.
 
 ## Usage
 
@@ -35,7 +33,7 @@ These classes should be easy enough to use, the all will return a unique message
 
 For more complex use cases, especially the printHTML: method, I'll publish a sample project using the LIPR framework for printing a Twitter timeline on GitHub separately.
 
-For a more detailed description of the LIPR framework, please see the [documentation](https://github.com/timschroedernet/LIPR/blob/master/DOCUMENTATION.md). 
+For a more detailed description of the LIPR framework, please see the [documentation](DOCUMENTATION.md). 
 
 ## Known Issues and Caveats
 
@@ -47,7 +45,7 @@ For a more detailed description of the LIPR framework, please see the [documenta
 
 ## License
 
-The (MIT-style) license for this source code is contained in the [license.md](https://github.com/timschroedernet/LIPR/blob/master/LICENSE.md) file. In a nutshell, as long as you give appropriate attribution, you're free to use the source code for any purpose.
+The (MIT-style) license for this source code is contained in the [license.md](LICENSE.md) file. In a nutshell, as long as you give appropriate attribution, you're free to use the source code for any purpose.
 
 ## Support
 

@@ -1,4 +1,4 @@
-###LIPR Framework License
+# LIPR Framework License
 
 Copyright (c) 2014 Tim Schröder
 
